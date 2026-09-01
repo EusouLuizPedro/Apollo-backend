@@ -8,7 +8,7 @@ import google.generativeai as genai
 app = FastAPI()
 
 # Configura a sua chave da API do Gemini diretamente aqui para testar no computador
-GEMINI_API_KEY = "AQ.Ab8RN6L5YXde3dqyspXl7JV7ukAl5fINPBdA5OIzRzjFzwKcwg"
+GEMINI_API_KEY = "AIzaSyDO6xLqc9xbQP7rNd2CFb7lEqOPr5CZojU"
 genai.configure(api_key=GEMINI_API_KEY)
 
 class AudioRequest(BaseModel):
