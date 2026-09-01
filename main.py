@@ -49,7 +49,7 @@ async def processar_audio(request: AudioRequest):
         # Salva uma cópia na memória do servidor para você conseguir ouvir
         ultimo_audio_wav = wav_data
 
-        model = genai.GenerativeModel("gemini-3.5-flash")
+        model = genai.GenerativeModel("gemini-1.5-flash")
         
         prompt_apollo = (
             "Você é o Apollo, uma inteligência artificial criada por Luiz Pedro, uma criança de 12 anos "
