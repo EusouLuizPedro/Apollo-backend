@@ -21,7 +21,7 @@ async def processar_audio(request: AudioRequest):
         wav_buffer = io.BytesIO()
         
         num_channels = 1
-        sample_rate = 16000
+        sample_rate = 11025
         bits_per_sample = 16
         data_size = len(audio_bytes)
         
